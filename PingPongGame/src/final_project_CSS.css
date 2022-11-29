@@ -1,0 +1,220 @@
+/* start page effections */
+#setting{
+    -fx-background-color: radial-gradient(center 50% -40%, radius 200%, #780090, #d400ff41);
+}
+#developer_information{
+    -fx-background-color: radial-gradient(center 50% -40%, radius 200%, #780090, #d400ff41);
+}
+#start{
+    -fx-background-color: radial-gradient(center 50% -40%, radius 200%, #780090, #d400ff41);
+}
+
+/* setting page effections */
+#mute{
+    -fx-background-color: radial-gradient(center 50% -40%, radius 200%, #0000004a, #fffffffa);
+}
+#mute:hover {
+  -fx-background-color: #606264;
+}
+#mute:pressed {
+    -fx-background-color: radial-gradient(center 50% -40%, radius 200%, #fffffffa, #0000004a)
+}
+#setting_back {
+    -fx-color-one: #53c15e;
+    -fx-color-two: #5dec04af;
+    -fx-color-three: #00ffc81c;
+  
+    -fx-background-color:
+        linear-gradient(#f2f2f2, -fx-color-one),
+        linear-gradient(#fcfcfc 0%, -fx-color-two 20%, -fx-color-one 100%),
+        linear-gradient(#dddddd 0%, -fx-color-three 50%);
+    -fx-background-radius: 8, 7, 6;
+    -fx-background-insets: 0, 1, 2;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+}
+#setting_back:hover {
+    -fx-color-one: #00bc1f;
+    -fx-color-two: #00bc1f;
+    -fx-color-three: #00bc1f;
+}
+#setting_back:pressed {
+    -fx-color-one: #3471ff;
+    -fx-color-two: #3471ff;
+    -fx-color-three: #3471ff;
+}
+
+#confirm{
+    -fx-background-color: radial-gradient(center 50% -40%, radius 200%, #0000004a, #fffffffa);
+}
+#confirm:hover {
+  -fx-background-color: #606264;
+}
+#confirm:pressed {
+    -fx-background-color: radial-gradient(center 50% -40%, radius 200%, #fffffffa, #0000004a)
+}
+
+#speedsetting {
+  -fx-border-color: transparent;
+  -fx-border : 0 0 1 0;
+  -fx-background-color: radial-gradient(center 50% -40%, radius 200%, #022457, #ffffff98);
+  -fx-border-radius: 150;
+  -fx-text-fill: rgb(143, 249, 255);
+}
+
+/* end page effections */
+#quit {
+    -fx-color-one: #95e1229d;
+    -fx-color-two: #5dec04af;
+    -fx-color-three: #fbff00;
+  
+    -fx-background-color:
+        linear-gradient(#f2f2f2, -fx-color-one),
+        linear-gradient(#fcfcfc 0%, -fx-color-two 20%, -fx-color-one 100%),
+        linear-gradient(#dddddd 0%, -fx-color-three 50%);
+    -fx-background-radius: 8, 7, 6;
+    -fx-background-insets: 0, 1, 2;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+}
+#quit:hover {
+    -fx-color-one: #00bc1f;
+    -fx-color-two: #00bc1f;
+    -fx-color-three: #00bc1f;
+}
+#quit:pressed {
+    -fx-color-one: #d88900;
+    -fx-color-two: #d88900;
+    -fx-color-three: #d88900;
+}
+
+#restart {
+    -fx-color-one: #95e1229d;
+    -fx-color-two: #5dec04af;
+    -fx-color-three: #fbff00;
+  
+    -fx-background-color:
+        linear-gradient(#f2f2f2, -fx-color-one),
+        linear-gradient(#fcfcfc 0%, -fx-color-two 20%, -fx-color-one 100%),
+        linear-gradient(#dddddd 0%, -fx-color-three 50%);
+    -fx-background-radius: 8, 7, 6;
+    -fx-background-insets: 0, 1, 2;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+}
+#restart:hover {
+    -fx-color-one: #00bc1f;
+    -fx-color-two: #00bc1f;
+    -fx-color-three: #00bc1f;
+}
+#restart:pressed {
+    -fx-color-one: #d88900;
+    -fx-color-two: #d88900;
+    -fx-color-three: #d88900;
+}
+
+/* gamemode page effections */
+#normal_mode {
+    -fx-color-one: #00fffb;
+    -fx-color-two: #4aef89af;
+    -fx-color-three: #50fc00af;
+  
+    -fx-background-color:
+        linear-gradient(#f2f2f2, -fx-color-one),
+        linear-gradient(#fcfcfc 0%, -fx-color-two 20%, -fx-color-one 100%),
+        linear-gradient(#dddddd 0%, -fx-color-three 50%);
+    -fx-background-radius: 8, 7, 6;
+    -fx-background-insets: 0, 1, 2;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+  }
+  
+  #normal_mode:hover {
+    -fx-color-one: #0bdaff;
+    -fx-color-two: #0bdaff;
+    -fx-color-three: #0bdaff;
+  }
+  
+  #normal_mode:pressed {
+    -fx-color-one: #235891;
+    -fx-color-two: #235891;
+    -fx-color-three: #235891;
+  }
+  #pve {
+    -fx-color-one: #00fffb;
+    -fx-color-two: #4aef89af;
+    -fx-color-three: #50fc00af;
+  
+    -fx-background-color:
+        linear-gradient(#f2f2f2, -fx-color-one),
+        linear-gradient(#fcfcfc 0%, -fx-color-two 20%, -fx-color-one 100%),
+        linear-gradient(#dddddd 0%, -fx-color-three 50%);
+    -fx-background-radius: 8, 7, 6;
+    -fx-background-insets: 0, 1, 2;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+  }
+  
+  #pve:hover {
+    -fx-color-one: #0bdaff;
+    -fx-color-two: #0bdaff;
+    -fx-color-three: #0bdaff;
+  }
+  
+  #pve:pressed {
+    -fx-color-one: #235891;
+    -fx-color-two: #235891;
+    -fx-color-three: #235891;
+  }
+  #Infinity_ball {
+    -fx-color-one: #00fffb;
+    -fx-color-two: #4aef89af;
+    -fx-color-three: #50fc00af;
+  
+    -fx-background-color:
+        linear-gradient(#f2f2f2, -fx-color-one),
+        linear-gradient(#fcfcfc 0%, -fx-color-two 20%, -fx-color-one 100%),
+        linear-gradient(#dddddd 0%, -fx-color-three 50%);
+    -fx-background-radius: 8, 7, 6;
+    -fx-background-insets: 0, 1, 2;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+  }
+  
+  #Infinity_ball:hover {
+    -fx-color-one: #0bdaff;
+    -fx-color-two: #0bdaff;
+    -fx-color-three: #0bdaff;
+  }
+  
+  #Infinity_ball:pressed {
+    -fx-color-one: #235891;
+    -fx-color-two: #235891;
+    -fx-color-three: #235891;
+  }
+  #gamemode_back {
+    -fx-color-one: #00fffb;
+    -fx-color-two: #4aef89af;
+    -fx-color-three: #50fc00af;
+  
+    -fx-background-color:
+        linear-gradient(#f2f2f2, -fx-color-one),
+        linear-gradient(#fcfcfc 0%, -fx-color-two 20%, -fx-color-one 100%),
+        linear-gradient(#dddddd 0%, -fx-color-three 50%);
+    -fx-background-radius: 8, 7, 6;
+    -fx-background-insets: 0, 1, 2;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+  }
+  
+  #gamemode_back:hover {
+    -fx-color-one: #0bdaff;
+    -fx-color-two: #0bdaff;
+    -fx-color-three: #0bdaff;
+  }
+  
+  #gamemode_back:pressed {
+    -fx-color-one: #235891;
+    -fx-color-two: #235891;
+    -fx-color-three: #235891;
+  }
